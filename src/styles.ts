@@ -19,3 +19,30 @@ export const TextContainer = styled.div`
   flex-direction: column;
   width: 40%;
 `;
+
+export const IconesContainer = styled.div`
+  display: grid;
+  padding-top: 4rem;
+  grid-template-columns: auto auto;
+  gap: 1rem;
+  width: 35.43rem;
+
+  div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+  }
+
+  span{
+    padding-right: 2.5rem;
+  }
+
+`
+
+export const IconeStyle = styled.div`
+  background-color: ${(props) => props.color};
+  padding: 8px;
+  border-radius: 100%;
+
+`
