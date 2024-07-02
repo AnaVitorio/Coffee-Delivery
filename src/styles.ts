@@ -9,7 +9,6 @@ export const IntroducaoContainer = styled.div`
   img{
     width: 26rem;
     height: 22.5rem;
-    margin-right: 4rem;
   }
 
 `;
@@ -25,12 +24,11 @@ export const IconesContainer = styled.div`
   padding-top: 4rem;
   grid-template-columns: auto auto;
   gap: 1rem;
-  width: 35.43rem;
+  width: 41rem;
 
   div{
     display: flex;
     align-items: center;
-    justify-content: center;
     gap: 0.75rem;
   }
 
