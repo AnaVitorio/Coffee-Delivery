@@ -7,6 +7,7 @@ import {
   TextContainer,
 } from "./styles";
 import { Coffee, Package, ShoppingCart, Timer } from "phosphor-react";
+import MenuCoffee from "./components/MenuCoffee/MenuCoffes";
 
 function App() {
   return (
@@ -49,6 +50,7 @@ function App() {
 
         <img src={imgCupCoffee} />
       </IntroducaoContainer>
+      <MenuCoffee/>
     </div>
   );
 }
