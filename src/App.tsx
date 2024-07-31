@@ -4,10 +4,11 @@ import {
   IconesContainer,
   IconeStyle,
   IntroducaoContainer,
+  Menu,
   TextContainer,
 } from "./styles";
 import { Coffee, Package, ShoppingCart, Timer } from "phosphor-react";
-import MenuCoffee from "./components/MenuCoffee/MenuCoffes";
+import CoffeeCard from "./components/MenuCoffee/CoffeeCard";
 
 function App() {
   return (
@@ -50,7 +51,10 @@ function App() {
 
         <img src={imgCupCoffee} />
       </IntroducaoContainer>
-      <MenuCoffee/>
+      <Menu>
+        <h1>Nossos cafés</h1>
+        <CoffeeCard />
+      </Menu>
     </div>
   );
 }

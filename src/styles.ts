@@ -6,11 +6,10 @@ export const IntroducaoContainer = styled.div`
   justify-content: space-between;
   padding: 4rem 10rem 0 10rem;
 
-  img{
+  img {
     width: 26rem;
     height: 22.5rem;
   }
-
 `;
 
 export const TextContainer = styled.div`
@@ -26,21 +25,26 @@ export const IconesContainer = styled.div`
   gap: 1rem;
   width: 41rem;
 
-  div{
+  div {
     display: flex;
     align-items: center;
     gap: 0.75rem;
   }
 
-  span{
+  span {
     padding-right: 2.5rem;
   }
-
-`
+`;
 
 export const IconeStyle = styled.div`
   background-color: ${(props) => props.color};
   padding: 8px;
   border-radius: 100%;
-
-`
+`;
+export const Menu = styled.div`
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 10rem 0 10rem;
+  width: 100%;
+  gap: 3.2rem;
+`;
